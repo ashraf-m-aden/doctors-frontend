@@ -1,18 +1,42 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader" v-show="loading">
+      <div class="preloader-inner">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader area end -->
+    <Banner />
+    <Services />
+    <Categories />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Banner from '@/components/Banner.vue'
+import Services from '@/components/Services.vue'
+import Categories from '@/components/Categories.vue'
 export default {
   name: 'Home',
+  data () {
+    return {
+      loading: true
+    }
+  },
   components: {
-    HelloWorld
+    Banner,
+    Services,
+    Categories
+  },
+  mounted () {
+    setTimeout(() => {
+      this.loading = false
+    }, 0)
   }
 }
 </script>
