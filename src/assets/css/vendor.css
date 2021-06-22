@@ -14481,7 +14481,7 @@ screen and (max-height:300px) {
     background: #000
 }
 
-.owl-carousel .owl-video-play-icon {
+.owl-carousel {
     position: absolute;
     height: 80px;
     width: 80px;
@@ -14489,8 +14489,9 @@ screen and (max-height:300px) {
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    /* background: url(owl.video.play.png) no-repeat; */
+     background: url(../img/banner/banner1.jpg) no-repeat; 
     cursor: pointer;
+    border: solid 1px yellow !important;
     z-index: 1;
     -webkit-backface-visibility: hidden;
     -webkit-transition: scale .1s ease;

@@ -13,6 +13,8 @@
     <Banner />
     <Services />
     <Categories />
+    <Testimony />
+    <BestAgent />
   </div>
 </template>
 
@@ -21,6 +23,8 @@
 import Banner from '@/components/Banner.vue'
 import Services from '@/components/Services.vue'
 import Categories from '@/components/Categories.vue'
+import Testimony from '@/components/Testimony.vue'
+import BestAgent from '@/components/BestAgent.vue'
 export default {
   name: 'Home',
   data () {
@@ -31,7 +35,9 @@ export default {
   components: {
     Banner,
     Services,
-    Categories
+    Categories,
+    Testimony,
+    BestAgent
   },
   mounted () {
     setTimeout(() => {
