@@ -45,8 +45,12 @@
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .banner-area {
   background: url("../assets/img/banner/banner1.jpg") !important;
+}
+.btn-base {
+  color: white !important;
+  background: #210cc9;
 }
 </style>

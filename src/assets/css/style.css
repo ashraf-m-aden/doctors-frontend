@@ -45,7 +45,7 @@ Version: 1.0.3
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500,600,700,800display=swap");
 /***transition***/
 :root {
-  --main-color: #5ba600;
+  --main-color: #2675db;
   --heading-color: #0d1741;
   --paragraph-color: #565872;
   --heading-font: "Rubik", sans-serif;
@@ -1648,7 +1648,7 @@ ul {
   height: 85px;
   line-height: 85px;
   overflow: inherit;
-  padding: 0 20px 0 50px;
+  padding: 0 20px 0 20px;
   margin-right: -1px;
 }
 .navbar-area-1 .nav-right-part .btn .btn-icon {

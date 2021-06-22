@@ -45,7 +45,7 @@
               <h4 class="widget-title">Contact Us</h4>
               <div class="details">
                 <p>
-                  <feather type="phone"></feather> +(066) 19 5017 800 628
+                  <feather type="phone"></feather> +(253) 19 5017 800 628
                 </p>
                 <p>
                   <feather type="send"></feather> info.contact@gmail.com

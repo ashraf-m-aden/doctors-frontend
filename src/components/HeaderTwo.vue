@@ -16,43 +16,6 @@
 
     <!-- navbar start -->
     <div class="navbar-area navbar-area-1">
-      <!-- navbar top start -->
-      <div class="navbar-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 text-lg-left text-center">
-              <ul>
-                <li>
-                  <p>
-                    <img src="../assets/img/icon/phone.png" alt="img" /> +(253)
-                    017 800 628
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <img src="../assets/img/icon/envelope.png" alt="img" />
-                    info.contact@gmail.com
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-4">
-              <ul class="topbar-right text-lg-right text-center">
-                <li>
-                  <router-link to='/inscription'>Inscription</router-link>
-                  <router-link to='/connection'>Connection</router-link>
-                </li>
-                <li class="social-area">
-                  <a href="#"><feather class="" size="15" type="facebook"></feather></a>
-                  <a href="#"><feather class="" size="15" type="twitter"></feather></a>
-                  <a href="#"><feather class="" size="15" type="instagram"></feather></a>
-                  <a href="#"><feather class="" size="15" type="linkedin"></feather></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
       <nav class="navbar navbar-expand-lg">
         <div class="container nav-container">
           <div class="responsive-mobile-menu">
