@@ -2,13 +2,16 @@
   <div id="app">
     <HeaderOne />
     <router-view />
+    <FooterOne />
   </div>
 </template>
 <script>
 import HeaderOne from '@/components/HeaderOne.vue'
+import FooterOne from '@/components/FooterOne.vue'
 export default {
   components: {
-    HeaderOne
+    HeaderOne,
+    FooterOne
   }
 }
 </script>

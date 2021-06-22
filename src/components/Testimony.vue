@@ -1,15 +1,9 @@
 <template>
-  <div class="body-bg">
     <!-- testimonial area start -->
     <div class="testimonial-area pd-top-118 pd-bottom-120 bg-overlay">
       <div class="bg-overlay-wrap">
         <div class="section-title style-white text-center">
-          <h6>Our Testomonial</h6>
-          <h2>What Client Say</h2>
-          <p>
-            Lorem ipsum dolor amet, consectetur adipisicing elit Lorem ipsum
-            dolor sit amet,
-          </p>
+          <h2>Ce que disent nos clients</h2>
         </div>
         <div class="container">
           <div class="row justify-content-center">
@@ -34,11 +28,13 @@
                           doloribus ipsa pariatur a quidem? Tempora, et ad. ’’
                         </p>
                         <div class="rating-inner">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="far fa-star" aria-hidden="true"></i>
+                          <b-form-rating
+                            no-border
+                            inline
+                            value="4"
+                            variant="danger"
+                            class="mb-2"
+                          ></b-form-rating>
                         </div>
                       </div>
                     </div>
@@ -59,11 +55,13 @@
                           ’’
                         </p>
                         <div class="rating-inner">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="far fa-star" aria-hidden="true"></i>
+                          <b-form-rating
+                            no-border
+                            inline
+                            value="4"
+                            variant="danger"
+                            class="mb-2"
+                          ></b-form-rating>
                         </div>
                       </div>
                     </div>
@@ -101,11 +99,10 @@
       </div>
     </div>
     <!-- testimonial area end -->
-  </div>
 </template>
 
 <style scoped>
 .testimonial-area {
-  background: url(../assets/img/bg/2.png);
+  background: url(../assets/img/banner/banner1.jpg);
 }
 </style>
