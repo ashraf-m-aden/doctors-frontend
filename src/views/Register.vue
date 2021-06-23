@@ -20,12 +20,12 @@
                 </div>
                 <div class="col-12">
                   <label class="single-input-inner style-bg-border">
-                    <input type="text" placeholder="Password" />
+                    <input type="text" placeholder="Mot de passe" />
                   </label>
                 </div>
                 <div class="col-12">
                   <label class="single-input-inner style-bg-border">
-                    <input type="text" placeholder="Confirm Password" />
+                    <input type="text" placeholder="Confirmer le mot de passe" />
                   </label>
                 </div>
                 <div class="col-12 mb-4 text-center">
@@ -45,7 +45,11 @@
 </template>
 <style lang="scss" scoped>
 .signin-inner {
-background: radial-gradient(circle, rgba(174,238,174,1) 0%, rgba(51,139,244,1) 100%);
+background: rgba($color: #ffffff, $alpha: .8);
+
+}
+.signup-page-area {
+    background: url("../assets/img/banner/banner1.jpg") !important;
 
 }
 .btn-base {

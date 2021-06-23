@@ -1,5 +1,4 @@
 <template>
-  <div>
     <!-- signin-page-Start -->
     <div class="signin-page-area pd-top-120 pd-bottom-120">
       <div class="container">
@@ -32,13 +31,15 @@
       </div>
     </div>
     <!-- signin-page-end -->
-  </div>
 </template>
 
 <style lang="scss" scoped>
-.signin-inner {
-background: radial-gradient(circle, rgba(174,238,174,1) 0%, rgba(51,139,244,1) 100%);
+.signin-page-area {
+    background: url("../assets/img/banner/banner1.jpg") !important;
 
+}
+.signin-inner {
+background: rgba($color: #ffffff, $alpha: .8);
 }
 .btn-base {
   transition: 1s all;

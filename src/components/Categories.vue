@@ -35,7 +35,9 @@
           </template>
         </cat-carousel>
 
-        <div class="row"></div>
+        <div class="row">
+          <router-link to="/categories" class="btn btn-base">Toutes les catégories</router-link>
+        </div>
       </div>
     </div>
     <!-- product area end -->

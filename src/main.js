@@ -10,6 +10,9 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueFeather from 'vue-feather'
+import VuePaginateAl from 'vue-paginate-al'
+
+Vue.component('vue-paginate-al', VuePaginateAl)
 Vue.use(VueFeather)
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)

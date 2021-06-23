@@ -3818,28 +3818,7 @@ ul {
   border: 0;
 }
 
-.widget-tags .tagcloud {
-  margin-top: 30px;
-}
-.widget-tags .tagcloud a {
-  height: 30px;
-  color: rgba(255, 255, 255, 0.8);
-  display: inline-block;
-  border: 1px solid #283453;
-  line-height: 30px;
-  padding: 0 18px;
-  border-radius: 30px;
-  font-size: 11px;
-  text-transform: uppercase;
-  margin: 0 3px 8px 0;
-  transition: all 0.3s ease-in;
-  position: relative;
-}
-.widget-tags .tagcloud a:hover {
-  background: var(--main-color);
-  color: #ffffff;
-  border: 1px solid var(--main-color);
-}
+
 
 /**widget-search**/
 .widget-search {

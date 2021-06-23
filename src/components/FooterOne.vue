@@ -1,7 +1,7 @@
 <template>
   <!-- footer area start -->
   <footer
-    class="footer-area style-two mg-top-100"
+    class="footer-area style-two"
     style="background: url(assets/img/other/1.png);"
   >
     <div class="footer-top">

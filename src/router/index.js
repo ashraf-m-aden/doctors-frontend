@@ -3,6 +3,10 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
+import Contact from '../views/Contact.vue'
+import Categories from '../views/Categories.vue'
+import Docteurs from '../views/docteurs/All-Doctors.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -20,6 +24,21 @@ const routes = [
     path: '/inscription',
     name: 'Inscription',
     component: Register
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
+  },
+  {
+    path: '/categories',
+    name: 'Categories',
+    component: Categories
+  },
+  {
+    path: '/docteurs',
+    name: 'Docteurs',
+    component: Docteurs
   }
   // {
   //   path: '/about',

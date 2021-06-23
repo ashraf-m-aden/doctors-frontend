@@ -163,14 +163,6 @@ select:focus {
   padding-right: 0;
 }
 
-.no-gutter>[class^="col-"]{
-  padding-left: 0;
-  padding-right: 0;
-}
-.no-gutter[class^="col-"]{
-    padding-left: 0;
-    padding-right: 0;
-  }
 
 .h-100vh {
     height: 100vh;
@@ -503,16 +495,6 @@ ul {
     padding: 0.50rem !important;
 }
 
-.custom-gutters-10 > .col,
-.custom-gutters-10 > [class*=col-] {
-    padding-right: 5px;
-    padding-left: 5px;
-}
-.custom-gutters-20 > .col,
-.custom-gutters-20 > [class*=col-] {
-    padding-right: 10px;
-    padding-left: 10px;
-}
 
 @media all and (min-width: 1600px) {
     .container {
