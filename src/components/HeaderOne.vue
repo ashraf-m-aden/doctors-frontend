@@ -68,7 +68,7 @@
           </div>
           <div class="logo">
             <router-link to="/"
-              ><img src="../assets/img/logo.png" alt="img"
+              ><img src="../assets/img/logotrans.png"  class="logo-img" alt="img"
             /></router-link>
           </div>
           <div class="nav-right-part nav-right-part-mobile">
@@ -86,34 +86,6 @@
           </div>
           <div class="collapse navbar-collapse" id="dkt_main_menu">
             <ul class="navbar-nav menu-open text-center">
-              <li class="menu-item-has-children current-menu-item">
-                <a href="#">Home</a>
-                <ul class="sub-menu">
-                  <li><a href="index.html">Home 01</a></li>
-                  <li><a href="index-2.html">Home 02</a></li>
-                  <li><a href="index-3.html">Home 03</a></li>
-                  <li><a href="index-4.html">Home 04</a></li>
-                </ul>
-              </li>
-              <li class="menu-item-has-children current-menu-item">
-                <a href="#">Property</a>
-                <ul class="sub-menu">
-                  <li><a href="property.html">Property</a></li>
-                  <li><a href="property-grid.html">Property Grid</a></li>
-                  <li><a href="property-left-sidebar.html">Left Sidebar</a></li>
-                  <li><a href="property-details.html">Property Details</a></li>
-                </ul>
-              </li>
-              <li class="menu-item-has-children current-menu-item">
-                <a href="#">Pages</a>
-                <ul class="sub-menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="signin.html">Sign In</a></li>
-                  <li><a href="signup.html">Sign Up</a></li>
-                  <li><a href="add-property.html">Add Property</a></li>
-                </ul>
-              </li>
               <li class="menu-item-has-children current-menu-item">
                 <a href="#">Blog</a>
                 <ul class="sub-menu">

@@ -42,4 +42,7 @@ export default {
 @import "./assets/css/vendor.css";
 @import "./assets/css/style.css";
 @import "./assets/css/responsive.css";
+.logo-img{
+  height: 120px !important;
+}
 </style>

@@ -6,6 +6,7 @@ import Register from '../views/Register.vue'
 import Contact from '../views/Contact.vue'
 import Categories from '../views/Categories.vue'
 import Docteurs from '../views/docteurs/All-Doctors.vue'
+import Docteur from '../views/docteurs/Doctor-Details.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/docteurs',
     name: 'Docteurs',
     component: Docteurs
+  },
+  {
+    path: '/docteur',
+    name: 'Docteur',
+    component: Docteur
   }
   // {
   //   path: '/about',

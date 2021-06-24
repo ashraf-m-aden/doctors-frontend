@@ -29,7 +29,7 @@
                       <input type="text" placeholder="Nom du docteur" class="form-control">
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3" @click="search()">
                     <a class="btn btn-base form-control" href="#"
                       ><i class="fa fa-search mr-1"></i> Trouver</a
                     >
@@ -44,6 +44,16 @@
     <!-- banner end -->
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    search () {
+      this.$router.push('/docteurs')
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .banner-area {

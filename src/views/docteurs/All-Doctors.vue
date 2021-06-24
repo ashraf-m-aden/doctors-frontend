@@ -82,6 +82,7 @@
               class="col-12 col-md-6"
               v-for="(doc, index) in pagDoctors"
               :key="index"
+              @click="check()"
             >
               <div class="doc">
                 <div class="row">
@@ -339,6 +340,9 @@ export default {
     }
   },
   methods: {
+    check () {
+      this.$router.push('/docteur')
+    },
     goToFunction (n) {
       this.loading = true
       this.pagDoctors = []
@@ -399,10 +403,22 @@ export default {
 }
 .doc {
   margin-bottom: 2rem;
+  cursor: pointer;
+  transition: 1s all;
+  &:hover{
+    transform: scale(1.1);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+
+    .image{
+      transform: scale(.9);
+    }
+  }
 }
 .image {
   height: 120px;
   width: 120px;
+  transition: 1s all;
 }
 .info {
   text-align: left;
